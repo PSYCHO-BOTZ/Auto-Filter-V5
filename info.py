@@ -42,16 +42,16 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cynitesupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cynitebackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cynitesupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/devils_chats')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_7x')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/devils_chats')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/cynitemovies/3')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/movies_7x')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/movies_7x')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001819673897))
