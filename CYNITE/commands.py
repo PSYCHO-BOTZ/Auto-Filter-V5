@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/CyniteBackup'),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/CyniteSupport')
+                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/team_netflix'),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/moviez_community')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -50,7 +50,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
+                    InlineKeyboardButton('ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɴᴇᴛᴡᴏʀᴋ', url="https://t.me/psycho_association")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
+                    InlineKeyboardButton('ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɴᴇᴛᴡᴏʀᴋ', url="https://t.me/psycho_association")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
