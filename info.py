@@ -42,16 +42,16 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/devils_chats')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_7x')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/devils_chats')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/animee_discussion')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/team_netflix')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/moviez_community')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/movies_7x')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/movies_7x')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/PVT_MOVIES_HUB')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/tutorial9996')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001819673897))
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'mdisklink.link')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'b0e8c7cfe1b1f58accbb8884b72cc67a58feeeca')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'urlearn.xyz')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '8e88b53e73f15d37c396c6e97e388e86356975c6')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
